@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(73, 73, 73);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: #66b9ec;
+    /* background-image: url('src/bgimg3.jpg'); */
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+.header-strip {
+    background-color: #66b9ec;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.res-section-header {
+    color: white;
+    font-weight: 550;
+    text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.header-strip-img {
+    float:left;
+}
+
+.my-name {
+    text-align: center;
+    margin: 15px;
+    font-size: 3em;
+    font-weight: normal;
+    color: white;
+}
+
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+}
+
+.subsection-header {
+    font-size: 1.3em;
+    color: #333;
+}
+
+.about-prof-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.res-element {
+    float: left;
+    margin: 15px;
+}
+
+.main-footer {
+    background-color: #66b9ec;
+    color: white;
+    padding: 0.25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.foter-nav li {
+    padding: 0 0.5em;
+}
+
+.footer-nav .sm-logo {
+    width: 35px;
+    height: 35px;
+}
+
+.skill-item {
+    margin: 30px;
+}
+
+.skill-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.skill-item-image {
+    height: 150px;
+}
+
+.skill-item-details {
+    flex-grow: 1;
+    color: #333;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill-text {
+    color: #444;
+}
+
+.axis path,
+.axis line {
+    stroke: teal;
+    shape-rendering: crispEdges;
+}
+
+
+.axis text{
+    font: Times;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Example</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">  
+    <script src="//unpkg.com/brain.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <style>
+        #color {
+            width: 200px;
+            height: 200px;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="https://people.ucsc.edu/~tdyer/projs.html">Return</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="box">
+        </div> -->
+    </header>
+    <div class="container">
+        <br>
+    
+    <div id="color">
+        <div class="white"></div>
+        <div></div>
+        <div id="guess">Prediction</div>
+    </div>
+
+    <button id="white-btn">White</button>
+    <button id="black-btn">Black</button>
+    <button id="print-btn">Print</button>
+    <p>So, what exactly are we looking at? This background color of this square is a randomly generated color, 0-1 multiplied by 255 for each r, g, b value. 
+    </p>
+    <p>The text in the center is either white, or black depending on a model prediction to maximize text contrast for readability. </p>
+    </p>
+    <p> I trained the model with the first data points of r(0) g(0) b(0) should output black, and r(1) g(1) b(1) should output white. I then did some manual training - clicking the button for which color the text should be
+        for the given background adds the rgb color of the current state as input, and my determination of text color for output into the test set of the model. If you print and observe the console output, you can see an example of this.
+    </p>
+    <p>
+        If you wish to further train the model, you can use the white/black buttons to select what you believe it should have displayed for the given color, and this instance will be added to the model's test set, or just refresh the page or click print to see more examples of my model predicting the correct text output.
+    </p>
+    <p><strong>Neural Net Visualization</strong></p>
+    <div id="diagram"></div>
+</div>
+<footer class="main-footer">
+    <div class="container main-footer-container">
+    <h3 class="my-name">My Links</h3>
+    <ul class="nav footer-nav">
+        <li>
+            <a href="https://github.com/theodoredyer" target="_blank">
+                <img class ="sm-logo" src="/src/githubwhite.png" height="50" width="50">
+                <!-- My Github -->
+            </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/theodoredyer/" target="_blank">
+                <img class="sm-logo" src="/src/linkedinwhite.png" height="50" width="50">
+                <!-- My Linkedin -->
+            </a>
+        <li>
+            <a href="https://people.ucsc.edu/~tdyer/" target="_blank">
+                <img src="/src/baskinlogo.png" height="40" width="120"> 
+                <!-- Personal Site -->
+            </a>
+        </li>
+            
+    </ul>
+    </div>
+</footer>
+</body>
+</html>

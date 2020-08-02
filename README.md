@@ -1,2 +1,2 @@
-# theodoredyer.github.io
-Homepage with resume and projects
+# homepage
+ Homepage for my github.io site
