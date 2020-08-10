@@ -1,2 +1,2 @@
 # homepage
- Homepage for my github.io site
+ Homepage for my github.io site with projects included
