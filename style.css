@@ -43,8 +43,8 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, 0.2);
-    background-image: url('src/bgimg3.jpg');
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
