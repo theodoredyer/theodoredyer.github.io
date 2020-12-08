@@ -64,14 +64,6 @@ function modelLoaded() {
   classifyImage();
 }
 
-function keyTyped() {
-  namestr = 'mask' + numtrack;
-  numtrack += 1;
-  if(key === 's') {
-    saveCanvas(canvas, namestr, 'png');
-  }
-}
-
 function draw() {
   image(video, 0, 0, width-10, height-10);
 }
