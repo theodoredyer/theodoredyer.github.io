@@ -46,14 +46,14 @@ function gotResults(err, results) {
     resultsDiv.html(`No mask detected: ${confidence}% Confidence`);
     stroke(255, 50, 50);
     strokeWeight(10);
-    rect(0, 450, 450, 20);
-    rect(450, 0, 20, 450);
+    rect(0, 445, 440, 10);
+    rect(445, 0, 20, 450);
   } else {
     resultsDiv.html(`Mask detected: ${confidence}% Confidence`);
-    stroke(80, 170, 255);
+    stroke(40, 255, 140);
     strokeWeight(10);
-    rect(0, 450, 450, 30);
-    rect(450, 0, 30, 450);
+    rect(0, 445, 440, 10);
+    rect(445, 0, 20, 450);
   }
 
   classifyImage();
